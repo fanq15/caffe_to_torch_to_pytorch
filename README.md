@@ -1,5 +1,10 @@
 # Convert caffe to pytorch
+# Convert caffe to torch
+# Convert torch to pytorch
 Convert caffe model to pytorch model and source.
+Convert caffe model to torch model and source.
+Convert torch model to pytorch model and source.
+
 
 ## [Install torch](http://torch.ch/docs/getting-started.html#_)
 
