@@ -7,8 +7,11 @@ Convert caffe model to pytorch model and source.
 
 ## Convert caffe to torch
 Change the path to your own path.
+
 Put the .prototxt and .caffemodel file in the same folder.
+
 You will get the vgg16_torch.t7 file.
+
 ```
 th caffemodel_to_t7.lua
 ```
@@ -34,4 +37,6 @@ model.eval()
 
 # Acknowledement
 The caffe to torch code is modified from [https://github.com/jcjohnson/pytorch-vgg](https://github.com/jcjohnson/pytorch-vgg)
+
 The torch to pytorch code is borrowed from [https://github.com/clcarwin/convert_torch_to_pytorch](https://github.com/clcarwin/convert_torch_to_pytorch)
+
