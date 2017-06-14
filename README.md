@@ -31,8 +31,8 @@ Two file will be created ```vgg16_torch.py``` ```vgg16_torch.pth```
 
 ## Load the .pth model in python
 * Make sure the ```vgg16_torch.py``` and ```vgg16_torch.pth``` files in the same folder with the python workspace.
-* The ```import vgg16_torch``` means import the model structure from the ```vgg16_torch.py```.
-* The ```model.load_state_dict``` means load weights from ```vgg16_torch.pth``` into the model structure.
+* The ```import vgg16_torch``` means importing the model structure from the ```vgg16_torch.py```.
+* The ```model.load_state_dict``` means loading weights from ```vgg16_torch.pth``` into the model structure.
 ```python
 import vgg16_torch
 
