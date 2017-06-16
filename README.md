@@ -1,9 +1,9 @@
 # Convert caffe to pytorch
 # Convert caffe to torch
 # Convert torch to pytorch
-* Convert caffe model to pytorch model and source.
-* Convert caffe model to torch model and source.
-* Convert torch model to pytorch model and source.
+* Convert caffe model to pytorch model.
+* Convert caffe model to torch model.
+* Convert torch model to pytorch model.
 
 
 ## [Install torch](http://torch.ch/docs/getting-started.html#_)
@@ -13,9 +13,9 @@
 ## Convert caffe to torch
 * Change the path to your own path.
 
-* Put the .prototxt and .caffemodel file in the same folder.
+* Put the `.prototxt` and `.caffemodel` file in the same folder.
 
-* You will get the vgg16_torch.t7 file.
+* You will get the `vgg16_torch.t7` file.
 
 ```
 th caffemodel_to_t7.lua
