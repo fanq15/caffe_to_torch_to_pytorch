@@ -1,9 +1,10 @@
 # Convert caffe to pytorch
 # Convert caffe to torch
 # Convert torch to pytorch
-* Convert caffe model to pytorch model.
-* Convert caffe model to torch model.
-* Convert torch model to pytorch model.
++ [x] Convert caffe model to pytorch model
++ [x] Convert caffe model to torch model
++ [x] Convert torch model to pytorch model
+
 * I have tested on vgg16, it behaves well on classification tasks. But I can't guarantee it performs well on other tasks（such as object detection and semantic segmentation). You can try it and modify the code according the bug info. If there are new components in your caffe model, you should add corresponding parts in the code。
 
 
