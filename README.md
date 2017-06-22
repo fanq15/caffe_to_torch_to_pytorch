@@ -43,7 +43,7 @@ model.eval()
 ...
 ```
 
-# Acknowledement
+# Acknowledgement
 * The caffe to torch code is modified from [https://github.com/jcjohnson/pytorch-vgg](https://github.com/jcjohnson/pytorch-vgg)
 
 * The torch to pytorch code is borrowed from [https://github.com/clcarwin/convert_torch_to_pytorch](https://github.com/clcarwin/convert_torch_to_pytorch)
